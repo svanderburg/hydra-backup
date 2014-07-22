@@ -1,0 +1,13 @@
+{
+  "dbiConnection": "dbi:Pg:dbname=hydra;host=localhost;user=hydra;",
+  
+  "outDir": "/home/sander/hydrabackup",
+  
+  "releases": [
+    {
+      "project": "disnix",
+      "name": "disnix-0.3",
+      "method": "binary"
+    }
+  ]
+}
