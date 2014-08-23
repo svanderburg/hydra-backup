@@ -35,9 +35,6 @@ in
         install -m755 scripts/hydra-restore.pl $out/bin/hydra-restore
         wrapProgram $out/bin/hydra-restore \
             --prefix PERL5LIB : $PERL5LIB
-        install -m755 scripts/hydra-release-eval.pl $out/bin/hydra-release-eval
-        wrapProgram $out/bin/hydra-release-eval \
-            --prefix PERL5LIB : $PERL5LIB
       '';
     }
   );
