@@ -50,13 +50,6 @@ Removes all files from the binary cache that are not in any release's closure:
 
     $ hydra-collect-backup-garbage config.json
 
-hydra-release-eval
-------------------
-Automatically adds all builds from an evaluation (having an evaluation id) to a
-specific release with a description:
-
-    $ hydra-release-eval config.json 3 "disnix-0.3" "Disnix 0.3"
-
 License
 =======
 The contents of this package is available under the terms and conditions of the
